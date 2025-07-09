@@ -17,7 +17,7 @@
 
 ---
 
-## 2. Risk Assessment & Monitoring Strategy (3 minutes)
+## 2. Risk Assessment & Monitoring Strategy 
 
 ### Key Risks Identified
 1. **Payment-Related Risks** (Critical Priority)
@@ -92,7 +92,7 @@ async enforcePayment(bondAddress, paymentId, dueDate, amount) {
 }
 ```
 
-#### C. Smart Contract Integration 
+#### C. Smart Contract Integration (Deployed at 0x8ED529C5461eFb7137DE831D5F1DD598a5BBf927 - Sepolia)
 ```solidity
 contract TokenizedBond is ERC20, AccessControl {
     event InterestPaymentDue(uint256 indexed paymentId, uint256 dueDate, uint256 amount);
